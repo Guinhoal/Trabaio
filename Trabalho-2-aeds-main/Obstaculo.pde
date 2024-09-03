@@ -1,0 +1,25 @@
+abstract class Obstaculo { // Classe abstrata com a cor do Obstaculo
+  int cor;
+
+  public Obstaculo(int cor) {
+    this.cor = cor;
+    
+  }
+}
+
+//Outras classes
+class Pedra extends Obstaculo {
+  Pedra() {
+    super(#555555);
+  }
+}
+class Cactus extends Obstaculo {
+  Cactus() {
+    super(#008000);
+  }
+}
+class Corais extends Obstaculo {
+  Corais() {
+    super(#FF00FF);
+  }
+}
